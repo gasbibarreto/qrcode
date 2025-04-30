@@ -32,11 +32,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
+- Less
 
 ### Continued development
 
-In this project I work with styled components 
+In this project I want to implement the less for my styles 
+
 ## Author
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ohgabriella)
