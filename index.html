@@ -15,10 +15,10 @@
   </head>
   <body>
     <main>
-      <div class="container">
-        <img alt="image-qr-code" src="./images/image-qr-code.png" />
-        <h1>Improve your front-end skills by building projects</h1>
-        <p>
+      <div class="card">
+        <img class="card__image" alt="image-qr-code" src="./images/image-qr-code.png" />
+        <h1 class="card__title">Improve your front-end skills by building projects</h1>
+        <p class="card__description">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
@@ -67,7 +67,7 @@
     align-items: center;
   }
 
-  .container {
+  .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,11 +81,11 @@
     margin-bottom: 20px;
   }
 
-  .container img {
+  .card__image {
     border-radius: 10px;
   }
 
-  h1 {
+  .card__title {
     font-size: 22px;
     color: hsl(218, 44%, 22%); /* Dark blue text */
     font-weight: 700;
@@ -95,7 +95,7 @@
     margin: 0;
   }
 
-  p {
+  .card__description {
     font-size: 15px;
     color: hsl(220, 15%, 55%); /* Grayish blue text */
     font-weight: 400;
